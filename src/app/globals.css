@@ -39,6 +39,18 @@
     --secondary: var(--secondary-500);
     --secondary-foreground: var(--background);
 
+    --info-100: 200.57, 100%, 93.14%;
+    --info-200: 202.61, 100%, 86.47%;
+    --info-300: 205.63, 100%, 79.8%;
+    --info-400: 208.37, 100%, 74.71%;
+    --info-500: 211.23, 100%, 66.47%;
+    --info-600: 214.18, 68.7%, 54.9%;
+    --info-700: 217.02, 62.67%, 44.12%;
+    --info-800: 219.67, 69.94%, 33.92%;
+    --info-900: 223.02, 76.81%, 27.06%;
+    --info: var(--info-500);
+    --info-foreground: var(--background);
+
     --success-100: 70, 87.5%, 90.59%;
     --success-200: 72.86, 89.36%, 81.57%;
     --success-300: 74.88, 81.21%, 70.78%;
@@ -134,6 +146,6 @@
     @apply border-border;
   }
   body {
-    @apply bg-background text-foreground;
+    @apply bg-[#C3D4E9]/40 text-foreground;
   }
 }
